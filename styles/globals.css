@@ -5,6 +5,6 @@
 
 @layer base {
   .inputField {
-    @apply rounded-xl p-4 text-inputCol bg-checking font-bold placeholder:text-inputCol placeholder:opacity-100 placeholder:font-bold mb-5 outline-none border-2 border-checking focus:border-inputCol caret-inputCol;
+    @apply rounded-xl p-4 text-inputCol bg-checking font-bold placeholder:text-inputCol placeholder:opacity-100 placeholder:font-normal mb-5 outline-none border-2 border-checking focus:border-inputCol caret-inputCol;
   }
 }

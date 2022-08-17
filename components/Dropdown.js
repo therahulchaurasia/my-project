@@ -9,7 +9,7 @@ export default function Dropdown({ options, selected, onChange, target }) {
     <div className="w-full h-full mb-6">
       <Listbox value={selected} onChange={(val) => onChange(target, val)}>
         <div className="relative">
-          <Listbox.Button className="relative w-full cursor-default rounded-lg bg-checking p-4 pr-10 text-left  outline-none border-2 border-checking focus:border-inputCol text-inputCol font-bold">
+          <Listbox.Button className="relative w-full cursor-default rounded-lg bg-checking p-4 pr-10 text-left  outline-none border-2 border-checking focus:border-inputCol text-inputCol">
             <span className="block truncate">{selected.designation}</span>
             <span className="pointer-events-none absolute inset-y-0 right-0 flex items-center pr-2">
               <TbSelector
